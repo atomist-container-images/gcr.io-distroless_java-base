@@ -1,11 +1,11 @@
-# Tags: debug
-FROM gcr.io/distroless/java-base:debug
-
-# Tags: debug-nonroot
-FROM gcr.io/distroless/java-base:debug-nonroot
+# Tags: nonroot
+FROM gcr.io/distroless/java-base:nonroot
 
 # Tags: latest
 FROM gcr.io/distroless/java-base:latest
 
-# Tags: nonroot
-FROM gcr.io/distroless/java-base:nonroot
+# Tags: debug-nonroot
+FROM gcr.io/distroless/java-base:debug-nonroot
+
+# Tags: debug
+FROM gcr.io/distroless/java-base:debug
